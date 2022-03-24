@@ -13,7 +13,10 @@
 }
 
 b{
-    border:solid;
+    display:flex;
+    text-align:center;
+    justify-content: center;
+    background-color:red;
 }
 
 head{
@@ -34,6 +37,17 @@ head{
     border: 10px solid;
 }
 
+.lucifer{
+    border: solid;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align:center;
+    align-items: center;
+}
+
+
 .lucifer img{
     border: 10px solid;
 }
@@ -49,4 +63,7 @@ button{
     border:solid;
     padding-block: 20px;
     font-weight:900;
+    padding-inline: 20px;
+    margin-inline: 15px;
+    margin-top: 20px;
 }
